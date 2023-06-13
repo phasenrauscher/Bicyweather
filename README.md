@@ -1,6 +1,5 @@
 
 
-![Bicyweather Banner v1.0](https://github.com/phasenrauscher/Weather/blob/master/app/src/main/res/drawable-200dpi/bkngreen.png)
 ![Bicyweather Banner v1.0](app/src/main/res/drawable-200dpi/bkngreen.png)
 
 A free / open source weather forecast app based on data of german [DWD](https://opendata.dwd.de).
