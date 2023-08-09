@@ -13,13 +13,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
-            android:name=".Map"
+            android:name="de.phasenrauscher.bicyweather.Map"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-        <activity android:name=".MainActivity"
+        <activity android:name="de.phasenrauscher.bicyweather.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,7 +27,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Setting" />
+        <activity android:name="de.phasenrauscher.bicyweather.Setting" />
     </application>
 
 </manifest>

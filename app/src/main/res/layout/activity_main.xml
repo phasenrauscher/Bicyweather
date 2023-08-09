@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:textAlignment="textEnd"
     app:barrierDirection="top"
-    tools:context=".MainActivity">
+    tools:context="de.phasenrauscher.bicyweather.MainActivity">
 
 
     <Button
