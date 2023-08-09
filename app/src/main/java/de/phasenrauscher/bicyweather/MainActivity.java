@@ -152,7 +152,6 @@ public class MainActivity extends AppCompatActivity{
     String imageURL_kmz = "https://opendata.dwd.de/weather/local_forecasts/mos/MOSMIX_L/single_stations/10776/kml/MOSMIX_L_LATEST_10776.kmz";
     String imageURL_csv = "https://opendata.dwd.de/weather/weather_reports/poi/10776-BEOB.csv";
 
-
     //String imageName_kmz = "MOSMIX_L_LATEST_10776.kmz";
     String imageName_kmz = "mosmix_l_latest.kmz";
     private long enqueue;
