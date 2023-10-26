@@ -25,7 +25,7 @@ Bicyweather is an app that shows the actual weather and a 7-day's weather foreca
 
 ## A different approach 
 
-Once you press the the "update" button, two very little files (~370kB incl. unzipped file) from [DWD](https://opendata.dwd.de) server will be downloaded and stored into Android's internal storage: the weather forecast file and the file that contains the actual weather information. This informations for your choosen location will be evaluated: min/max temperatures will be separated, the "number" which represents the weather will be translated into an icon (according to SYNOP) and displayed on the main screen. 
+Once you press the "update" button, two very little files (~370kB incl. unzipped file) from [DWD](https://opendata.dwd.de) server will be downloaded and stored into Android's internal storage: the weather forecast file and the file that contains the actual weather information. This informations for your choosen location will be evaluated: min/max temperatures will be separated, the "number" which represents the weather will be translated into an icon (according to SYNOP) and displayed on the main screen. 
 In the background, every new "update" overwrites the downloaded files and the evaluated information will be stored in a database (~20kB). So you can see the once downloaded weather forecast after the next start even there is no Wifi/5G available.  
 
 ## Open Source License
