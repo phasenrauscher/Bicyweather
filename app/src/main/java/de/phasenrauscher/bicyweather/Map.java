@@ -41,8 +41,12 @@ public class Map extends AppCompatActivity {
         // show map of all DWD stations with pdf viewer by "https://github.com/barteksc/AndroidPdfViewer"
         // you can follow YT video by SARTHI Technologies : "https://www.youtube.com/watch?v=UmawUM7Af3g"
         pdfView = findViewById(R.id.pdfView);
+
+        pdfView.enableAntialiasing(true);
+        pdfView.setMidZoom(12);
+        pdfView.setMaxZoom(30);
         //pdfView.fromAsset("messnetzkarte_boden.pdf").load();
-        pdfView.fromAsset("messnetz_kl.pdf").load(); // it better fits to available stations, but not 100%
+        pdfView.fromAsset("messnetz_sy.pdf").load(); // it better fits to available stations, but not 100%
 
     }
 

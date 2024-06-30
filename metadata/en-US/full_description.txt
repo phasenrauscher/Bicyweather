@@ -1,0 +1,7 @@
+Bicyweather is showing weather information of the day and a 7-day's weatherforecast of a lot of german DWD weatherstations and some european ones. 
+The main screen is clearly arranged. As not all cities can be choosen by the setup, the map accessible inside is helping you to choose the best location. 
+
+*weather data directly coming from https://opendata.dwd.de
+*last weather forecast is stored in a database file and can be watched offline
+*weather forecast is showing min/max temperatures and the weather icons for 9am / 12am / 3pm / 6pm
+

@@ -315,7 +315,7 @@ public class MainActivity extends AppCompatActivity{
         protected void onResume() {
             super.onResume();
             //Receiver- und Intent-Filter-Objekt an "registerReceiver"-Methode übergeben
-            registerReceiver(receiver, new IntentFilter(DownloadManager.ACTION_DOWNLOAD_COMPLETE));
+            registerReceiver(receiver, new IntentFilter(DownloadManager.ACTION_DOWNLOAD_COMPLETE), RECEIVER_EXPORTED);
         }
 
         @Override
@@ -327,6 +327,7 @@ public class MainActivity extends AppCompatActivity{
     /*
         @Override
         protected void onRestart() {
+
             super.onRestart();
             //Receiver- und Intent-Filter-Objekt an "registerReceiver"-Methode übergeben
             registerReceiver(receiver, new IntentFilter(DownloadManager.ACTION_DOWNLOAD_COMPLETE));
