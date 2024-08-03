@@ -2,13 +2,15 @@
 buildscript {
     ext {
         agp_version = '8.5.0'
-        agp_version1 = '8.5.0'
-        agp_version2 = '8.5.1'
+        agp_version1 = '8.5.1'
+        agp_version2 = agp_version
     }
     repositories {
+        //google()
+        //jcenter()
+        mavenCentral()
         google()
-        jcenter()
-        }
+    }
     dependencies {
         classpath "com.android.tools.build:gradle:$agp_version2"
 
@@ -19,9 +21,10 @@ buildscript {
 
 allprojects {
     repositories {
+        //google()
+        //jcenter()
+        mavenCentral()
         google()
-        jcenter()
-
     }
 }
 

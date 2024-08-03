@@ -6,35 +6,41 @@ android {
     compileSdk 34
 
     defaultConfig {
-        applicationId 'de.phasenrauscher.bicyweather'
+        applicationId "de.phasenrauscher.bicyweather"
         namespace "de.phasenrauscher.bicyweather"
-        minSdk 34
+        minSdk 28
         targetSdk 34
         versionCode 1
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        //testApplicationId agp_version1
+        //testHandleProfiling false
+        //testFunctionalTest false
     }
 
     buildTypes {
         release {
             minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            proguardFiles 'proguard-rules.pro'
         }
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_11
         targetCompatibility JavaVersion.VERSION_11
     }
+    buildToolsVersion '34.0.0'
 }
 
 dependencies {
 
-    implementation 'androidx.appcompat:appcompat:1.2.0'
-    implementation 'com.google.android.material:material:1.3.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
-    testImplementation 'junit:junit:4.+'
-    androidTestImplementation 'androidx.test.ext:junit:1.2.0-alpha03'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
-    implementation 'com.github.barteksc:android-pdf-viewer:3.2.0-beta.1'
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation 'com.google.android.material:material:1.12.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.2.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
+    //implementation 'com.github.barteksc:android-pdf-viewer:3.2.0-beta.1'
+    //implementation 'com.github.barteksc:pdfium-android:1.9.0'
+    implementation 'com.github.mhiew:android-pdf-viewer:3.2.0-beta.3'
 }
