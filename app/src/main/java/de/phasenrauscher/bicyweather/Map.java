@@ -28,7 +28,7 @@ import android.view.View;
 
 import com.github.barteksc.pdfviewer.PDFView;
 
-import de.phasenrauscher.bicyweather.R;
+//import de.phasenrauscher.bicyweather.R;
 
 public class Map extends AppCompatActivity {
 

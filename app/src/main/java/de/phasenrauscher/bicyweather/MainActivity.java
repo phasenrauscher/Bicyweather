@@ -40,6 +40,7 @@ package de.phasenrauscher.bicyweather;
 //https://stackoverflow.com/questions/11340776/passing-a-list-from-one-activity-to-another    <-- data exchange between activities
 
 import android.Manifest;
+import android.annotation.SuppressLint;
 import android.app.DownloadManager;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -99,7 +100,7 @@ import java.util.zip.ZipInputStream;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
-import de.phasenrauscher.bicyweather.CityItem;
+//import de.phasenrauscher.bicyweather.CityItem;
 
 
 public class MainActivity extends AppCompatActivity{
@@ -1067,7 +1068,8 @@ public class MainActivity extends AppCompatActivity{
 
         // failure treatment if no symbol available
         String sIcon29 = awIcon;
-        int res29 = getResources().getIdentifier(sIcon29, "drawable", this.getPackageName());
+        @SuppressLint("DiscouragedApi") int res29 = getResources().getIdentifier(sIcon29, "drawable", this.getPackageName());
+
         ImageView imageview29 = (ImageView) findViewById(R.id.imageView29);
         imageview29.setImageResource(res29);
 
@@ -1098,25 +1100,25 @@ public class MainActivity extends AppCompatActivity{
 
 
         String sIcon3 = Icons[0];
-        int res3 = getResources().getIdentifier(sIcon3, "drawable", this.getPackageName());
+        @SuppressLint("DiscouragedApi") int res3 = getResources().getIdentifier(sIcon3, "drawable", this.getPackageName());
         ImageView imageview3 = (ImageView) findViewById(R.id.imageView3);
         imageview3.setImageResource(res3);
 
 
         String sIcon10 = Icons[1];
-        int res10 = getResources().getIdentifier(sIcon10, "drawable", this.getPackageName());
+        @SuppressLint("DiscouragedApi") int res10 = getResources().getIdentifier(sIcon10, "drawable", this.getPackageName());
         ImageView imageview10 = (ImageView) findViewById(R.id.imageView10);
         imageview10.setImageResource(res10);
 
 
         String sIcon11 = Icons[2];
-        int res11 = getResources().getIdentifier(sIcon11, "drawable", this.getPackageName());
+        @SuppressLint("DiscouragedApi") int res11 = getResources().getIdentifier(sIcon11, "drawable", this.getPackageName());
         ImageView imageview11 = (ImageView) findViewById(R.id.imageView11);
         imageview11.setImageResource(res11);
 
 
         String sIcon12 = Icons[3];
-        int res12 = getResources().getIdentifier(sIcon12, "drawable", this.getPackageName());
+        @SuppressLint("DiscouragedApi") int res12 = getResources().getIdentifier(sIcon12, "drawable", this.getPackageName());
         ImageView imageview12 = (ImageView) findViewById(R.id.imageView12);
         imageview12.setImageResource(res12);
 
@@ -1133,24 +1135,24 @@ public class MainActivity extends AppCompatActivity{
 
 
         String sIcon4 = Icons[4];
-        int res4 = getResources().getIdentifier(sIcon4, "drawable", this.getPackageName());
+        @SuppressLint("DiscouragedApi") int res4 = getResources().getIdentifier(sIcon4, "drawable", this.getPackageName());
         ImageView imageview4 = (ImageView) findViewById(R.id.imageView4);
         imageview4.setImageResource(res4);
 
 
         String sIcon = Icons[5];
-        int res = getResources().getIdentifier(sIcon, "drawable", this.getPackageName());
+        @SuppressLint("DiscouragedApi") int res = getResources().getIdentifier(sIcon, "drawable", this.getPackageName());
         ImageView imageview = (ImageView) findViewById(R.id.imageView);
         imageview.setImageResource(res);
 
 
         String sIcon2 = Icons[6];
-        int res2 = getResources().getIdentifier(sIcon2, "drawable", this.getPackageName());
+        @SuppressLint("DiscouragedApi") int res2 = getResources().getIdentifier(sIcon2, "drawable", this.getPackageName());
         ImageView imageview2 = (ImageView) findViewById(R.id.imageView2);
         imageview2.setImageResource(res2);
 
         String sIcon13 = Icons[7];
-        int res13 = getResources().getIdentifier(sIcon13, "drawable", this.getPackageName());
+        @SuppressLint("DiscouragedApi") int res13 = getResources().getIdentifier(sIcon13, "drawable", this.getPackageName());
         ImageView imageview13 = (ImageView) findViewById(R.id.imageView13);
         imageview13.setImageResource(res13);
 
@@ -1166,24 +1168,24 @@ public class MainActivity extends AppCompatActivity{
 
 
         String sIcon5 = Icons[8];
-        int res5 = getResources().getIdentifier(sIcon5, "drawable", this.getPackageName());
+        @SuppressLint("DiscouragedApi") int res5 = getResources().getIdentifier(sIcon5, "drawable", this.getPackageName());
         ImageView imageview5 = (ImageView) findViewById(R.id.imageView5);
         imageview5.setImageResource(res5);
 
 
         String sIcon14 = Icons[9];
-        int res14 = getResources().getIdentifier(sIcon14, "drawable", this.getPackageName());
+        @SuppressLint("DiscouragedApi") int res14 = getResources().getIdentifier(sIcon14, "drawable", this.getPackageName());
         ImageView imageview14 = (ImageView) findViewById(R.id.imageView14);
         imageview14.setImageResource(res14);
 
 
         String sIcon15 = Icons[10];
-        int res15 = getResources().getIdentifier(sIcon15, "drawable", this.getPackageName());
+        @SuppressLint("DiscouragedApi") int res15 = getResources().getIdentifier(sIcon15, "drawable", this.getPackageName());
         ImageView imageview15 = (ImageView) findViewById(R.id.imageView15);
         imageview15.setImageResource(res15);
 
         String sIcon16 = Icons[11];
-        int res16 = getResources().getIdentifier(sIcon16, "drawable", this.getPackageName());
+        @SuppressLint("DiscouragedApi") int res16 = getResources().getIdentifier(sIcon16, "drawable", this.getPackageName());
         ImageView imageview16 = (ImageView) findViewById(R.id.imageView16);
         imageview16.setImageResource(res16);
 
@@ -1199,24 +1201,24 @@ public class MainActivity extends AppCompatActivity{
 
 
         String sIcon6 = Icons[12];
-        int res6 = getResources().getIdentifier(sIcon6, "drawable", this.getPackageName());
+        @SuppressLint("DiscouragedApi") int res6 = getResources().getIdentifier(sIcon6, "drawable", this.getPackageName());
         ImageView imageview6 = (ImageView) findViewById(R.id.imageView6);
         imageview6.setImageResource(res6);
 
 
         String sIcon17 = Icons[13];
-        int res17 = getResources().getIdentifier(sIcon17, "drawable", this.getPackageName());
+        @SuppressLint("DiscouragedApi") int res17 = getResources().getIdentifier(sIcon17, "drawable", this.getPackageName());
         ImageView imageview17 = (ImageView) findViewById(R.id.imageView17);
         imageview17.setImageResource(res17);
 
 
         String sIcon18 = Icons[14];
-        int res18 = getResources().getIdentifier(sIcon18, "drawable", this.getPackageName());
+        @SuppressLint("DiscouragedApi") int res18 = getResources().getIdentifier(sIcon18, "drawable", this.getPackageName());
         ImageView imageview18 = (ImageView) findViewById(R.id.imageView18);
         imageview18.setImageResource(res18);
 
         String sIcon19 = Icons[15];
-        int res19 = getResources().getIdentifier(sIcon19, "drawable", this.getPackageName());
+        @SuppressLint("DiscouragedApi") int res19 = getResources().getIdentifier(sIcon19, "drawable", this.getPackageName());
         ImageView imageview19 = (ImageView) findViewById(R.id.imageView19);
         imageview19.setImageResource(res19);
 
@@ -1232,24 +1234,24 @@ public class MainActivity extends AppCompatActivity{
 
 
         String sIcon7 = Icons[16];
-        int res7 = getResources().getIdentifier(sIcon7, "drawable", this.getPackageName());
+        @SuppressLint("DiscouragedApi") int res7 = getResources().getIdentifier(sIcon7, "drawable", this.getPackageName());
         ImageView imageview7 = (ImageView) findViewById(R.id.imageView7);
         imageview7.setImageResource(res7);
 
 
         String sIcon20 = Icons[17];
-        int res20 = getResources().getIdentifier(sIcon20, "drawable", this.getPackageName());
+        @SuppressLint("DiscouragedApi") int res20 = getResources().getIdentifier(sIcon20, "drawable", this.getPackageName());
         ImageView imageview20 = (ImageView) findViewById(R.id.imageView20);
         imageview20.setImageResource(res20);
 
 
         String sIcon21 = Icons[18];
-        int res21 = getResources().getIdentifier(sIcon21, "drawable", this.getPackageName());
+        @SuppressLint("DiscouragedApi") int res21 = getResources().getIdentifier(sIcon21, "drawable", this.getPackageName());
         ImageView imageview21 = (ImageView) findViewById(R.id.imageView21);
         imageview21.setImageResource(res21);
 
         String sIcon22 = Icons[19];
-        int res22 = getResources().getIdentifier(sIcon22, "drawable", this.getPackageName());
+        @SuppressLint("DiscouragedApi") int res22 = getResources().getIdentifier(sIcon22, "drawable", this.getPackageName());
         ImageView imageview22 = (ImageView) findViewById(R.id.imageView22);
         imageview22.setImageResource(res22);
 
@@ -1265,24 +1267,24 @@ public class MainActivity extends AppCompatActivity{
 
 
         String sIcon8 = Icons[20];
-        int res8 = getResources().getIdentifier(sIcon8, "drawable", this.getPackageName());
+        @SuppressLint("DiscouragedApi") int res8 = getResources().getIdentifier(sIcon8, "drawable", this.getPackageName());
         ImageView imageview8 = (ImageView) findViewById(R.id.imageView8);
         imageview8.setImageResource(res8);
 
 
         String sIcon23 = Icons[21];
-        int res23 = getResources().getIdentifier(sIcon23, "drawable", this.getPackageName());
+        @SuppressLint("DiscouragedApi") int res23 = getResources().getIdentifier(sIcon23, "drawable", this.getPackageName());
         ImageView imageview23 = (ImageView) findViewById(R.id.imageView23);
         imageview23.setImageResource(res23);
 
 
         String sIcon24 = Icons[22];
-        int res24 = getResources().getIdentifier(sIcon24, "drawable", this.getPackageName());
+        @SuppressLint("DiscouragedApi") int res24 = getResources().getIdentifier(sIcon24, "drawable", this.getPackageName());
         ImageView imageview24 = (ImageView) findViewById(R.id.imageView24);
         imageview24.setImageResource(res24);
 
         String sIcon25 = Icons[23];
-        int res25 = getResources().getIdentifier(sIcon25, "drawable", this.getPackageName());
+        @SuppressLint("DiscouragedApi") int res25 = getResources().getIdentifier(sIcon25, "drawable", this.getPackageName());
         ImageView imageview25 = (ImageView) findViewById(R.id.imageView25);
         imageview25.setImageResource(res25);
 
@@ -1298,24 +1300,24 @@ public class MainActivity extends AppCompatActivity{
 
 
         String sIcon9 = Icons[24];
-        int res9 = getResources().getIdentifier(sIcon9, "drawable", this.getPackageName());
+        @SuppressLint("DiscouragedApi") int res9 = getResources().getIdentifier(sIcon9, "drawable", this.getPackageName());
         ImageView imageview9 = (ImageView) findViewById(R.id.imageView9);
         imageview9.setImageResource(res9);
 
 
         String sIcon26 = Icons[25];
-        int res26 = getResources().getIdentifier(sIcon26, "drawable", this.getPackageName());
+        @SuppressLint("DiscouragedApi") int res26 = getResources().getIdentifier(sIcon26, "drawable", this.getPackageName());
         ImageView imageview26 = (ImageView) findViewById(R.id.imageView26);
         imageview26.setImageResource(res26);
 
 
         String sIcon27 = Icons[26];
-        int res27 = getResources().getIdentifier(sIcon27, "drawable", this.getPackageName());
+        @SuppressLint("DiscouragedApi") int res27 = getResources().getIdentifier(sIcon27, "drawable", this.getPackageName());
         ImageView imageview27 = (ImageView) findViewById(R.id.imageView27);
         imageview27.setImageResource(res27);
 
         String sIcon28 = Icons[27];
-        int res28 = getResources().getIdentifier(sIcon28, "drawable", this.getPackageName());
+        @SuppressLint("DiscouragedApi") int res28 = getResources().getIdentifier(sIcon28, "drawable", this.getPackageName());
         ImageView imageview28 = (ImageView) findViewById(R.id.imageView28);
         imageview28.setImageResource(res28);
 
