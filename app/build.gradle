@@ -6,9 +6,8 @@ android {
     compileSdk 34
 
     lintOptions {
-        checkReleaseBuilds false
+        disable 'ExpiredTargetSdkVersion'
     }
-
 
     defaultConfig {
         applicationId "de.phasenrauscher.bicyweather"
