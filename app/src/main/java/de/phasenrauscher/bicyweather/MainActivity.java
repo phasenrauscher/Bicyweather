@@ -180,6 +180,7 @@ public class MainActivity extends AppCompatActivity{
     Handler mainHandler = new Handler(Looper.getMainLooper()) {
 
         @Override
+        @SuppressWarnings("deprecation")
         public void handleMessage(Message msg) {
             switch (msg.what) {
                 case DwdHtml.whatDwdHtml:
@@ -190,7 +191,9 @@ public class MainActivity extends AppCompatActivity{
 
 
                 case Mosmix.whatMosmix:
+
                     mapweatherstations = (HashMap<String, WeatherStation>) msg.getData().getSerializable("Mosmix");
+                    //mapweatherstations = (HashMap<String, WeatherStation>) msg.getData().getSerializable("Mosmix", "");
                     //System.out.println("HandlerMapweatherstations: " + mapweatherstations.keySet().size());
                     Log.d(TAG, "HandlerMapweatherstations: " + mapweatherstations.keySet().size());
                     break;

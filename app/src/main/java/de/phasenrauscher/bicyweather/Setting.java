@@ -29,6 +29,7 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.os.BundleCompat;
 
 import java.util.ArrayList;
 
@@ -46,7 +47,11 @@ public class Setting extends AppCompatActivity {
     //DBHelper DB;
     Cursor c;
 
-    //OLD: Getting the instance of Spinner and applying OnItemSelectedListener on it
+
+
+
+
+        //OLD: Getting the instance of Spinner and applying OnItemSelectedListener on it
     //Spinner spin = (Spinner) findViewById(R.id.spinner);
 
 
@@ -80,7 +85,10 @@ public class Setting extends AppCompatActivity {
 
         //NEW 16OKT22 fill Autocomplete Adapter with Spinnerdata (ArrayList) by mainactivity
         Bundle bundle = getIntent().getExtras();
+        //BundleCompat Bundle = getIntent().getExtras();
+        @SuppressWarnings("deprecation")
         ArrayList<CityItem> arraylist = bundle.getParcelableArrayList("Spinnerdata");
+        //ArrayList<CityItem> arraylist = Bundle.getParcelableArrayList("Spinnerdata");
         AutoCompleteTextView editTextactv = findViewById(R.id.actv);
         AutoCompleteCityAdapter adapter = new AutoCompleteCityAdapter(this, arraylist);
         editTextactv.setAdapter(adapter);
