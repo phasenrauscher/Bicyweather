@@ -9,6 +9,7 @@ android {
         checkReleaseBuilds false
     }
 
+
     defaultConfig {
         applicationId "de.phasenrauscher.bicyweather"
         namespace "de.phasenrauscher.bicyweather"
