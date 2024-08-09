@@ -100,6 +100,7 @@ public class AutoCompleteCountryAdapter extends ArrayAdapter<CountryItem> {
         }
 
         @Override
+        @SuppressWarnings("unchecked")
         protected void publishResults(CharSequence constraint, FilterResults results) {
             clear();
             addAll((List) results.values);
@@ -113,6 +114,7 @@ public class AutoCompleteCountryAdapter extends ArrayAdapter<CountryItem> {
 
 
             Cursor res = DB.getdata();
+
 
             if (res.getCount() == 0) {
                 Boolean checkinsertdata = DB.insertuserdata("location", ((CountryItem) resultValue).getCountryID(),"weatherdata");}

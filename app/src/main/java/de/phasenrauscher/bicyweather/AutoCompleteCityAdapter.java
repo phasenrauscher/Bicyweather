@@ -32,6 +32,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 
 import de.phasenrauscher.bicyweather.R;
@@ -99,6 +100,7 @@ public class AutoCompleteCityAdapter extends ArrayAdapter<CityItem> {
         }
 
         @Override
+        @SuppressWarnings("unchecked")
         protected void publishResults(CharSequence constraint, FilterResults results) {
             clear();
             addAll((List) results.values);
@@ -108,6 +110,7 @@ public class AutoCompleteCityAdapter extends ArrayAdapter<CityItem> {
 
 
         @Override
+        @SuppressWarnings("unchecked")
         public CharSequence convertResultToString(Object resultValue) {
 
             // fill database DB with CityID
