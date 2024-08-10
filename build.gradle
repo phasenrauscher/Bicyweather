@@ -1,4 +1,7 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+
+
 buildscript {
     ext {
         agp_version1 = '8.5.1'
@@ -32,6 +35,7 @@ allprojects {
         options.compilerArgs << "-Xlint:unchecked"
     }
 }
+
 
 
 
