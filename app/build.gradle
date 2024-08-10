@@ -17,7 +17,7 @@ android {
         versionCode 1
         versionName "1.0"
 
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        //testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         //testApplicationId agp_version1
         //testHandleProfiling false
         //testFunctionalTest false
@@ -37,6 +37,7 @@ android {
             proguardFiles 'proguard-rules.pro'
         }
     }
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_22
         targetCompatibility JavaVersion.VERSION_22
