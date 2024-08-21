@@ -1,1 +1,1 @@
-A fast and simple weather forecast with clearly arranged weather icons and temperatures for Germany.
+A simple weather forecast for german cities.
