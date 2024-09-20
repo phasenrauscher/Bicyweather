@@ -1032,31 +1032,30 @@ public class MainActivity extends AppCompatActivity{
 
 
         TextView dow1 = (TextView) findViewById(R.id.today);
-        dow1.setText("heute");
-
+        dow1.setText("today");
 
         TextView dow2 = (TextView) findViewById(R.id.tomorrow);
-        dow2.setText(dow.plus(1).getDisplayName(TextStyle.FULL, Locale.GERMANY));
+        dow2.setText(dow.plus(1).getDisplayName(TextStyle.FULL, Locale.ENGLISH));
 
 
         TextView dow3 = (TextView) findViewById(R.id.day3);
-        dow3.setText(dow.plus(2).getDisplayName(TextStyle.FULL, Locale.GERMANY));
+        dow3.setText(dow.plus(2).getDisplayName(TextStyle.FULL, Locale.ENGLISH));
 
 
         TextView dow4 = (TextView) findViewById(R.id.day4);
-        dow4.setText(dow.plus(3).getDisplayName(TextStyle.FULL, Locale.GERMANY));
+        dow4.setText(dow.plus(3).getDisplayName(TextStyle.FULL, Locale.ENGLISH));
 
 
         TextView dow5 = (TextView) findViewById(R.id.day5);
-        dow5.setText(dow.plus(4).getDisplayName(TextStyle.FULL, Locale.GERMANY));
+        dow5.setText(dow.plus(4).getDisplayName(TextStyle.FULL, Locale.ENGLISH));
 
 
         TextView dow6 = (TextView) findViewById(R.id.day6);
-        dow6.setText(dow.plus(5).getDisplayName(TextStyle.FULL, Locale.GERMANY));
+        dow6.setText(dow.plus(5).getDisplayName(TextStyle.FULL, Locale.ENGLISH));
 
 
         TextView dow7 = (TextView) findViewById(R.id.day7);
-        dow7.setText(dow.plus(6).getDisplayName(TextStyle.FULL, Locale.GERMANY));
+        dow7.setText(dow.plus(6).getDisplayName(TextStyle.FULL, Locale.ENGLISH));
     }
             catch(
     Exception e)
@@ -1867,7 +1866,7 @@ public class MainActivity extends AppCompatActivity{
 
     // Create defaults if data base does not exits:
     String location_default = "10776";
-    String locationName_default = "Stadt";
+    String locationName_default = "City/Stadt";
     String[] Icons_default = {"empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty"};
     String[] minmaxtemps_default = {"--", "--", "--", "--", "--", "--", "--", "--", "--", "--", "--", "--", "--", "--"};
 
