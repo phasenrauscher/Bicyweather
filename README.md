@@ -60,29 +60,29 @@ An unmodified copy of the above license text must be included in all forks.
 	Weather Icon licenses - Creative Commons (CC):
 
 
-    Matthew Petroff, „Weather Icons - wind.svg“, 	CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_wind.svg)<br>
-    Matthew Petroff, „Weather Icons - fg.svg“, 	CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_fg.svg)<br>
-    Matthew Petroff, „Weather Icons - bkn.svg“, 	CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_bkn.svg)<br>
-    Matthew Petroff, „Weather Icons - dust.svg“, 	CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_dust.svg)<br>
-    Matthew Petroff, „Weather Icons - few.svg“, 	CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_few.svg)<br>
-    Matthew Petroff, „Weather Icons - fzra.svg“, 	CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_fzra.svg)<br>
-    Matthew Petroff, „Weather Icons - fzrara.svg“, 	CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_fzrara.svg)<br>
-    Matthew Petroff, „Weather Icons - hi shwrs.svg“,CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_hi_shwrs.svg)<br>
-    Matthew Petroff, „Weather Icons - ip.svg“, 	CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_ip.svg)<br>
-    Matthew Petroff, „Weather Icons - mist.svg“, 	CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_mist.svg)<br>
-    Matthew Petroff, „Weather Icons - mix.svg“, 	CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_mix.svg)<br>
-    Matthew Petroff, „Weather Icons - nsurtsra.svg“,CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_nsurtsra.svg)<br>
-    Matthew Petroff, „Weather Icons - ovc.svg“, 	CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_ovc.svg)<br>
-    Matthew Petroff, „Weather Icons - ra.svg“, 	CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_ra.svg)<br>
-    Matthew Petroff, „Weather Icons - ra1.svg“, 	CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_ra1.svg)<br>
-    Matthew Petroff, „Weather Icons - raip.svg“, 	CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_raip.svg)<br>
-    Matthew Petroff, „Weather Icons - rasn.svg“, 	CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_rasn.svg)<br>
-    Matthew Petroff, „Weather Icons - sct.svg“, 	CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_sct.svg)<br>
-    Matthew Petroff, „Weather Icons - shra.svg“, 	CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_shra.svg)<br>
-    Matthew Petroff, „Weather Icons - skc.svg“, 	CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_skc.svg)<br>
-    Matthew Petroff, „Weather Icons - smoke.svg“, 	CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_smoke.svg)<br>
-    Matthew Petroff, „Weather Icons - sn.svg“, 	CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_sn.svg)<br>
-    Matthew Petroff, „Weather Icons - tsra.svg“, 	CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_tsra.svg)<br>
-    Matthew Petroff, „Weather Icons - hi tsra.svg“, CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_hi_tsra.svg)<br>
+    Matthew Petroff, „Weather Icons - wind.svg“, 	CC BY 1.0 [Weather_Icons_-_wind.svg](https://commons.wikimedia.org/wiki/File:Weather_Icons_-_wind.svg)<br>
+    Matthew Petroff, „Weather Icons - fg.svg“, 	    CC BY 1.0 [Weather_Icons_-_fg.svg](https://commons.wikimedia.org/wiki/File:Weather_Icons_-_fg.svg)<br>
+    Matthew Petroff, „Weather Icons - bkn.svg“, 	CC BY 1.0 [Weather_Icons_-_bkn.svg](https://commons.wikimedia.org/wiki/File:Weather_Icons_-_bkn.svg)<br>
+    Matthew Petroff, „Weather Icons - dust.svg“, 	CC BY 1.0 [Weather_Icons_-_dust.svg](https://commons.wikimedia.org/wiki/File:Weather_Icons_-_dust.svg)<br>
+    Matthew Petroff, „Weather Icons - few.svg“, 	CC BY 1.0 [Weather_Icons_-_few.svg](https://commons.wikimedia.org/wiki/File:Weather_Icons_-_few.svg)<br>
+    Matthew Petroff, „Weather Icons - fzra.svg“, 	CC BY 1.0 [Weather_Icons_-_fzra.svg](https://commons.wikimedia.org/wiki/File:Weather_Icons_-_fzra.svg)<br>
+    Matthew Petroff, „Weather Icons - fzrara.svg“, 	CC BY 1.0 [Weather_Icons_-_fzrara.svg](https://commons.wikimedia.org/wiki/File:Weather_Icons_-_fzrara.svg)<br>
+    Matthew Petroff, „Weather Icons - hi shwrs.svg“,CC BY 1.0 [Weather_Icons_-_hi_shwrs.svg](https://commons.wikimedia.org/wiki/File:Weather_Icons_-_hi_shwrs.svg)<br>
+    Matthew Petroff, „Weather Icons - ip.svg“, 	    CC BY 1.0 [Weather_Icons_-_ip.svg](https://commons.wikimedia.org/wiki/File:Weather_Icons_-_ip.svg)<br>
+    Matthew Petroff, „Weather Icons - mist.svg“, 	CC BY 1.0 [Weather_Icons_-_mist.svg](https://commons.wikimedia.org/wiki/File:Weather_Icons_-_mist.svg)<br>
+    Matthew Petroff, „Weather Icons - mix.svg“, 	CC BY 1.0 [Weather_Icons_-_mix.svg](https://commons.wikimedia.org/wiki/File:Weather_Icons_-_mix.svg)<br>
+    Matthew Petroff, „Weather Icons - nsurtsra.svg“,CC BY 1.0 [Weather_Icons_-_nsurtsra.svg](https://commons.wikimedia.org/wiki/File:Weather_Icons_-_nsurtsra.svg)<br>
+    Matthew Petroff, „Weather Icons - ovc.svg“, 	CC BY 1.0 [Weather_Icons_-_ovc.svg](https://commons.wikimedia.org/wiki/File:Weather_Icons_-_ovc.svg)<br>
+    Matthew Petroff, „Weather Icons - ra.svg“, 	    CC BY 1.0 [Weather_Icons_-_ra.svg](https://commons.wikimedia.org/wiki/File:Weather_Icons_-_ra.svg)<br>
+    Matthew Petroff, „Weather Icons - ra1.svg“, 	CC BY 1.0 [Weather_Icons_-_ra1.svg](https://commons.wikimedia.org/wiki/File:Weather_Icons_-_ra1.svg)<br>
+    Matthew Petroff, „Weather Icons - raip.svg“, 	CC BY 1.0 [Weather_Icons_-_raip.svg](https://commons.wikimedia.org/wiki/File:Weather_Icons_-_raip.svg)<br>
+    Matthew Petroff, „Weather Icons - rasn.svg“, 	CC BY 1.0 [Weather_Icons_-_rasn.svg](https://commons.wikimedia.org/wiki/File:Weather_Icons_-_rasn.svg)<br>
+    Matthew Petroff, „Weather Icons - sct.svg“, 	CC BY 1.0 [Weather_Icons_-_sct.svg](https://commons.wikimedia.org/wiki/File:Weather_Icons_-_sct.svg)<br>
+    Matthew Petroff, „Weather Icons - shra.svg“, 	CC BY 1.0 [Weather_Icons_-_shra.svg](https://commons.wikimedia.org/wiki/File:Weather_Icons_-_shra.svg)<br>
+    Matthew Petroff, „Weather Icons - skc.svg“, 	CC BY 1.0 [Weather_Icons_-_skc.svg](https://commons.wikimedia.org/wiki/File:Weather_Icons_-_skc.svg)<br>
+    Matthew Petroff, „Weather Icons - smoke.svg“, 	CC BY 1.0 [Weather_Icons_-_smoke.svg](https://commons.wikimedia.org/wiki/File:Weather_Icons_-_smoke.svg)<br>
+    Matthew Petroff, „Weather Icons - sn.svg“, 	    CC BY 1.0 [Weather_Icons_-_sn.svg](https://commons.wikimedia.org/wiki/File:Weather_Icons_-_sn.svg)<br>
+    Matthew Petroff, „Weather Icons - tsra.svg“, 	CC BY 1.0 [Weather_Icons_-_tsra.svg](https://commons.wikimedia.org/wiki/File:Weather_Icons_-_tsra.svg)<br>
+    Matthew Petroff, „Weather Icons - hi tsra.svg“, CC BY 1.0 [Weather_Icons_-_hi_tsra.svg](https://commons.wikimedia.org/wiki/File:Weather_Icons_-_hi_tsra.svg)<br>
 
 > Android is a trademark of Google LLC.
