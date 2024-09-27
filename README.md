@@ -52,25 +52,27 @@ An unmodified copy of the above license text must be included in all forks.
 
 ## External Credits
 
- 
- 1.  PDF viewer: Copyright 2017 Bartosz Schiller [AndroidPdfViewer](https://github.com/barteksc/AndroidPdfViewer)
- 2.  This project is inspired by:  [Matthew Petroff's "Kindle Weather Display"](https://mpetroff.net/2012/09/kindle-weather-display/)
-	 Weather Icon licenses - Creative Commons (CC):
+ 1. The weather data are used from [DWD](https://opendata.dwd.de/weather), own elements added, some data averaged over individual values, licensed under CC BY 4.0., see [copyrights](https://www.dwd.de/DE/service/rechtliche_hinweise/rechtliche_hinweise_node.html).
+ 2. The uMap project: [umap](https://umap.openstreetmap.de/de)
+ 3. OpenStreetMap®, licensed under the Open Data Commons Open Database License (ODbL) by the OpenStreetMap Foundation, see [copyrights](https://www.openstreetmap.org/copyright) 
+ 4. PDF viewer: Copyright 2017 Bartosz Schiller [AndroidPdfViewer](https://github.com/barteksc/AndroidPdfViewer)
+ 5. This project is inspired by:  [Matthew Petroff's "Kindle Weather Display"](https://mpetroff.net/2012/09/kindle-weather-display/)
+	Weather Icon licenses - Creative Commons (CC):
 
     Matthew Petroff, „Weather Icons - wind.svg“, 	CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_wind.svg)
-    Matthew Petroff, „Weather Icons - fg.svg“, 	CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_fg.svg)
+    Matthew Petroff, „Weather Icons - fg.svg“, 	    CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_fg.svg)
     Matthew Petroff, „Weather Icons - bkn.svg“, 	CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_bkn.svg)
     Matthew Petroff, „Weather Icons - dust.svg“, 	CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_dust.svg)
     Matthew Petroff, „Weather Icons - few.svg“, 	CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_few.svg)
     Matthew Petroff, „Weather Icons - fzra.svg“, 	CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_fzra.svg)
     Matthew Petroff, „Weather Icons - fzrara.svg“, 	CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_fzrara.svg)
     Matthew Petroff, „Weather Icons - hi shwrs.svg“,CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_hi shwrs.svg)
-    Matthew Petroff, „Weather Icons - ip.svg“, 	CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_ip.svg)
+    Matthew Petroff, „Weather Icons - ip.svg“, 	    CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_ip.svg)
     Matthew Petroff, „Weather Icons - mist.svg“, 	CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_mist.svg)
     Matthew Petroff, „Weather Icons - mix.svg“, 	CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_mix.svg)
     Matthew Petroff, „Weather Icons - nsurtsra.svg“,CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_nsurtsra.svg)
     Matthew Petroff, „Weather Icons - ovc.svg“, 	CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_ovc.svg)
-    Matthew Petroff, „Weather Icons - ra.svg“, 	CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_ra.svg)
+    Matthew Petroff, „Weather Icons - ra.svg“, 	    CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_ra.svg)
     Matthew Petroff, „Weather Icons - ra1.svg“, 	CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_ra1.svg)
     Matthew Petroff, „Weather Icons - raip.svg“, 	CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_raip.svg)
     Matthew Petroff, „Weather Icons - rasn.svg“, 	CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_rasn.svg)
@@ -78,7 +80,7 @@ An unmodified copy of the above license text must be included in all forks.
     Matthew Petroff, „Weather Icons - shra.svg“, 	CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_shra.svg)
     Matthew Petroff, „Weather Icons - skc.svg“, 	CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_skc.svg)
     Matthew Petroff, „Weather Icons - smoke.svg“, 	CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_smoke.svg)
-    Matthew Petroff, „Weather Icons - sn.svg“, 	CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_sn.svg)
+    Matthew Petroff, „Weather Icons - sn.svg“, 	    CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_sn.svg)
     Matthew Petroff, „Weather Icons - tsra.svg“, 	CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_tsra.svg)
     Matthew Petroff, „Weather Icons - hi tsra.svg“, CC BY 1.0 (https://commons.wikimedia.org/wiki/File:Weather_Icons_-_hi tsra.svg)
 
