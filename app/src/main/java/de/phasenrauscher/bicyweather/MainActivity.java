@@ -610,6 +610,8 @@ public class MainActivity extends AppCompatActivity{
                 if (stations.getKey().equals(GCLStationsOnWeb.get(nine_seventy))) {
                     //19SEPT22
                     //System.out.format("Name: %s \n", stations.getValue().ReadWeatherStationsName() + stations.getKey());
+                    //System.out.format("%s \n", stations.getValue().ReadWeatherStationsName()+", " + stations.getValue().ReadWeatherStationsLatitude() + "'N , " + stations.getValue().ReadWeatherStationsLongitude() + "'E");
+                    //System.out.format("%s \n", stations.getValue().ReadWeatherStationsName());
                     GCLavailableWeatherStations.put(stations.getKey(), stations.getValue());
                 }
             }
@@ -1866,7 +1868,7 @@ public class MainActivity extends AppCompatActivity{
 
     // Create defaults if data base does not exits:
     String location_default = "10776";
-    String locationName_default = "City/Stadt";
+    String locationName_default = "City";
     String[] Icons_default = {"empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty"};
     String[] minmaxtemps_default = {"--", "--", "--", "--", "--", "--", "--", "--", "--", "--", "--", "--", "--", "--"};
 

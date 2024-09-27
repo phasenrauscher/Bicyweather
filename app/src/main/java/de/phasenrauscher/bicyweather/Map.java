@@ -42,10 +42,12 @@ public class Map extends AppCompatActivity {
         pdfView = findViewById(R.id.pdfView);
 
         pdfView.enableAntialiasing(true);
-        pdfView.setMidZoom(12);
-        pdfView.setMaxZoom(30);
+        //pdfView.setMidZoom(12);
+        //pdfView.setMaxZoom(30);
+        pdfView.setMidZoom(5);
+        pdfView.setMaxZoom(20);
         //pdfView.fromAsset("messnetzkarte_boden.pdf").load();
-        pdfView.fromAsset("messnetz_sy.pdf").load(); // it better fits to available stations, but not 100%
+        pdfView.fromAsset("stationsmap_de.pdf").load(); // it better fits to available stations, but not 100%
 
     }
 
