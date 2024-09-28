@@ -55,7 +55,7 @@ An unmodified copy of the above license text must be included in all forks.
  1. The weather data are used from [DWD](https://opendata.dwd.de/weather), own elements added, some data averaged, extracted or new interpreted. licensed under CC BY 4.0., see [copyrights](https://www.dwd.de/DE/service/rechtliche_hinweise/rechtliche_hinweise_node.html).
  2. The uMap project: [umap](https://umap.openstreetmap.de/de)
  3. OpenStreetMap®, licensed under the Open Data Commons Open Database License (ODbL) by the OpenStreetMap Foundation, see [copyrights](https://www.openstreetmap.org/copyright) 
- 4. PDF viewer: Copyright 2017 Bartosz Schiller [AndroidPdfViewer](https://github.com/barteksc/AndroidPdfViewer)
+ 4. PDF viewer: Copyright 2017 Bartosz Schiller [AndroidPdfViewer](https://github.com/barteksc/AndroidPdfViewer), licensed under the Apache License, Version 2.0
  5. This project is inspired by:  [Matthew Petroff's "Kindle Weather Display"](https://mpetroff.net/2012/09/kindle-weather-display/)
 	Weather Icon licenses - Creative Commons (CC):
 
