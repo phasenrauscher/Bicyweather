@@ -31,7 +31,7 @@ import java.io.InputStreamReader;
 import java.util.HashMap;
 
 
-/***************************************************** Thread2 Mosmix ***************************************************/
+    /***************************************************** Thread2 Mosmix ***************************************************/
     /************************************************************************************************************************/
             /*
             Input:  assets file "mosmix_stationskatalog.cfg"
@@ -62,24 +62,21 @@ import java.util.HashMap;
 
             try {
 
-
-                reader = new BufferedReader(new InputStreamReader(MainActivity.mainActivity.getAssets().open("mosmix_stationskatalog.cfg"), "ISO8859-1"));
+                //reader = new BufferedReader(new InputStreamReader(MainActivity.mainActivity.getAssets().open("mosmix_stationskatalog.cfg"), "ISO8859-1"));
+                reader = new BufferedReader(new InputStreamReader(MainActivity.mainActivity.getAssets().open("StationsCatalog.txt"), "ISO8859-1"));
                 String wsLine;
-
-                //Log.e("Reader Stuff", reader.readLine());
 
                 while ((wsLine = reader.readLine()) != null) {
 
 
-                    // System.out.println("received row: " + wsLine);
-                    /*ID => key  || Name, Longitude, etc. => value;  */
-
-                    /*  TABLE St 99999 99991 gmos 99892 99891 ecmda 99791 gmeda
-                    clu   CofX  id    ICAO name                 nb.    el.     elev  Hmod-H type
-                    ===== ----- ===== ---- -------------------- ------ ------- ----- ------ ----
-                    0-5   6-11  12-17 18-22 23-43               44-51   51-58   59-64 65-71 72-76
-                    99803     8 EW002 ---- Beveringen            53.10   12.13    71        LAND
-                    99804     8 EW003 ---- Calvoerde             52.25   11.19    55        LAND
+                    /*
+                    *   Id      Name                Lat.     Long.    Clu Cofx ICAO   Elev HmodH Type
+                    *   "P265","GRAEFENBERG-KASBERG ",49.4, 11.13,99811,206,"----",506,-41,"LAND"
+                        "P0019","NIDDA               ",50.25, 9.01,99811,0,"----",190,-2,"LAND"
+                        "P264","ROEDELSEE           ",49.43, 10.15,99807,0,"----",240,23,"LAND"
+                        "47930","NAHA                ",26.11, 127.39,99703,0,"----",3,5,"KUES"
+                        "P267","HIENBERG            ",49.36, 11.22,99808,0,"----",539,-38,"LAND"
+                    *
                     */
 
 
@@ -94,48 +91,77 @@ import java.util.HashMap;
                     Integer ss_HmodH;
                     String ss_Type;
 
-                    /* read line by line, separate information and store them to hashmap mapweatherstations
-                    /* recognize head of table and empty lines and ignore them */
-                    if (!(wsLine.contains("TABLE St 99999") || (wsLine.contains("===== -----")) || (wsLine.contains("clu   CofX")) || (wsLine.isEmpty()))) {
+
+
+                    if (!(wsLine.isEmpty())) {
 
                         try {
-                            /* throw exceptions for all inputs that not fit and go ahead */
 
-                            if ((wsLine.substring(0, 5).isEmpty()) || (wsLine.substring(0, 5).contains("     ")))
-                                ss_Clu = 0;
-                            else
-                                ss_Clu = Integer.valueOf(wsLine.substring(0, 5).replace(" ", ""));
+                            // this code requires the file StationsCatalog.txt from assets folder
+                            // read line by line from file StationsCatalog.txt, separate information and store them to hashmap emapweatherstations
 
-                            if ((wsLine.substring(6, 11).isEmpty()) || (wsLine.substring(6, 11).contains("     ")))
-                                ss_CofX = 0;
-                            else
-                                ss_CofX = Integer.valueOf(wsLine.substring(6, 11).replace(" ", ""));
+                            String[] statar = wsLine.split(";");
+                            //for (String statio : statar) {
+                            //System.out.println(statio);}
 
-                            ss_Id = wsLine.substring(12, 17).trim(); //OKT 2020 added trim() m.s.
-                            ss_ICAO = wsLine.substring(18, 22);
-                            /* TODO show german umlauts instead of "/D6": 19 SEPT 2022  done by charsetName = "ISO8859-1" */
-                            ss_Name = wsLine.substring(23, 43); /* Changed!! -> WRONG: name is the KEY of the hashmap; not any more; TRUE: ID is the key ! */
+                            ss_Id = statar[0];
+                            ss_Name = statar[1];
+                            ss_Latitude = Double.valueOf(statar[2]);
+                            ss_Longitude = Double.valueOf(statar[3]);
+                            ss_Clu = Integer.valueOf(statar[4]);
+                            ss_CofX = Integer.valueOf(statar[5]);
+                            ss_ICAO = statar[6];
+                            ss_Elev = Integer.parseInt(statar[7]);
+                            ss_HmodH = Integer.parseInt(statar[8]);
+                            ss_Type = statar[9];
 
-                            if ((wsLine.substring(44, 51).isEmpty()) || (wsLine.substring(44, 51).contains("     ")) || (wsLine.substring(44, 51).contains("------")))
-                                ss_Latitude = 0;
-                            else ss_Latitude = Double.valueOf(wsLine.substring(44, 51));
 
-                            if ((wsLine.substring(51, 58).isEmpty()) || (wsLine.substring(51, 58).contains("     ")) || (wsLine.substring(51, 58).contains("-------")))
-                                ss_Longitude = 0;
-                            else
-                                ss_Longitude = Double.valueOf(wsLine.substring(51, 58));
+                            /*
+                            // this code requires the file mosmix_stationscatalog.cfg to be read out, not available here
+                            // read line by line from file mosmix_stationscatalog.cfg, separate information and store them to hashmap emapweatherstations
+                            // recognize head of table and empty lines and ignore them
+                            if (!(wsLine.contains("TABLE St 99999") || (wsLine.contains("===== -----")) || (wsLine.contains("clu   CofX")) || (wsLine.isEmpty()))) {
 
-                            if ((wsLine.substring(59, 64).isEmpty()) || (wsLine.substring(59, 64).contains("     ")))
-                                ss_Elev = 0;
-                            else
-                                ss_Elev = Integer.parseInt(wsLine.substring(59, 64).replace(" ", ""));
+                                try {
+                                    // throw exceptions for all inputs that not fit and go ahead
 
-                            if ((wsLine.substring(65, 71).isEmpty()) || (wsLine.substring(65, 71).contains("      ")))
-                                ss_HmodH = 0;
-                            else
-                                ss_HmodH = Integer.parseInt(wsLine.substring(65, 71).replace(" ", ""));
+                                    if ((wsLine.substring(0, 5).isEmpty()) || (wsLine.substring(0, 5).contains("     ")))
+                                        ss_Clu = 0;
+                                    else
+                                        ss_Clu = Integer.valueOf(wsLine.substring(0, 5).replace(" ", ""));
 
-                            ss_Type = wsLine.substring(72, 76);
+                                    if ((wsLine.substring(6, 11).isEmpty()) || (wsLine.substring(6, 11).contains("     ")))
+                                        ss_CofX = 0;
+                                    else
+                                        ss_CofX = Integer.valueOf(wsLine.substring(6, 11).replace(" ", ""));
+
+                                    ss_Id = wsLine.substring(12, 17).trim(); //OKT 2020 added trim() m.s.
+                                    ss_ICAO = wsLine.substring(18, 22);
+                                    // show german umlauts instead of "/D6": 19 SEPT 2022  done by charsetName = "ISO8859-1"
+                                    ss_Name = wsLine.substring(23, 43); // Changed!! -> WRONG: name is the KEY of the hashmap; not any more; TRUE: ID is the key !
+
+                                    if ((wsLine.substring(44, 51).isEmpty()) || (wsLine.substring(44, 51).contains("     ")) || (wsLine.substring(44, 51).contains("------")))
+                                        ss_Latitude = 0;
+                                    else ss_Latitude = Double.valueOf(wsLine.substring(44, 51));
+
+                                    if ((wsLine.substring(51, 58).isEmpty()) || (wsLine.substring(51, 58).contains("     ")) || (wsLine.substring(51, 58).contains("-------")))
+                                        ss_Longitude = 0;
+                                    else
+                                        ss_Longitude = Double.valueOf(wsLine.substring(51, 58));
+
+                                    if ((wsLine.substring(59, 64).isEmpty()) || (wsLine.substring(59, 64).contains("     ")))
+                                        ss_Elev = 0;
+                                    else
+                                        ss_Elev = Integer.parseInt(wsLine.substring(59, 64).replace(" ", ""));
+
+                                    if ((wsLine.substring(65, 71).isEmpty()) || (wsLine.substring(65, 71).contains("      ")))
+                                        ss_HmodH = 0;
+                                    else
+                                        ss_HmodH = Integer.parseInt(wsLine.substring(65, 71).replace(" ", ""));
+
+                                    ss_Type = wsLine.substring(72, 76);
+                            */
+
 
                             emapweatherstations.put(ss_Id, new WeatherStation(ss_Name, ss_Latitude, ss_Longitude, ss_Clu, ss_CofX, ss_ICAO, ss_Elev, ss_HmodH, ss_Type));
                             //text = ss_Name;
@@ -175,4 +201,3 @@ import java.util.HashMap;
             }
         }
     }
-

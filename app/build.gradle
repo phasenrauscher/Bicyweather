@@ -15,7 +15,7 @@ android {
         minSdk 29
         targetSdk 34
         versionCode 1
-        versionName '1.0.15'
+        versionName '1.0.16'
 
         //testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         //testApplicationId agp_version1
@@ -54,7 +54,8 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.2.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
     // https://mvnrepository.com/artifact/com.github.mhiew/android-pdf-viewer
-    implementation 'com.github.mhiew:android-pdf-viewer:3.2.0-beta.3'
-    //implementation 'com.github.barteksc:android-pdf-viewer:3.2.0-beta.1'
+    // implementation 'com.github.mhiew:android-pdf-viewer:3.2.0-beta.3'
+    // implementation 'com.github.barteksc:android-pdf-viewer:3.2.0-beta.1'
+    implementation 'com.github.MikeOrtiz:TouchImageView:3.6'
 
 }

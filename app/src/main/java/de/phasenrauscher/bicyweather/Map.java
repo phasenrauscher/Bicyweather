@@ -17,6 +17,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
+// https://stackoverflow.com/questions/2537238/how-can-i-get-zoom-functionality-for-images?rq=3
 
 package de.phasenrauscher.bicyweather;
 
@@ -25,20 +26,23 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageSwitcher;
+import android.widget.ImageView;
 
-import com.github.barteksc.pdfviewer.PDFView;
+//import com.github.barteksc.pdfviewer.PDFView;
+import com.ortiz.touchview.TouchImageView;
 //import de.phasenrauscher.bicyweather.R;
 
 public class Map extends AppCompatActivity {
 
-    PDFView pdfView;
+    //PDFView pdfView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_map);
 
-        // show map of all DWD stations with pdf viewer by "https://github.com/barteksc/AndroidPdfViewer"
         // you can follow YT video by SARTHI Technologies : "https://www.youtube.com/watch?v=UmawUM7Af3g"
+/*
         pdfView = findViewById(R.id.pdfView);
 
         pdfView.enableAntialiasing(true);
@@ -46,9 +50,13 @@ public class Map extends AppCompatActivity {
         //pdfView.setMaxZoom(30);
         pdfView.setMidZoom(5);
         pdfView.setMaxZoom(20);
-        //pdfView.fromAsset("messnetzkarte_boden.pdf").load();
-        pdfView.fromAsset("stationsmap_de.pdf").load(); // it better fits to available stations, but not 100%
+        pdfView.fromAsset("stationsmap_de.pdf").load();
 
+*/
+        TouchImageView mapView = (TouchImageView) findViewById(R.id.stationsmap);
+        mapView.setDoubleTapScale(5);
+        mapView.setMaxZoom(30);
+        mapView.setImageResource(R.drawable.stationsmap_de);
     }
 
 

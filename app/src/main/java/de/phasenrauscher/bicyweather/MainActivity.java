@@ -590,7 +590,7 @@ public class MainActivity extends AppCompatActivity{
 
     public ArrayList<CityItem> GenerateCityList(HashMap<String, WeatherStation> GCLmapweatherstations, ArrayList<String> GCLStationsOnWeb) {
 
-        // follows thread Html and Mosmix; important to update AutoCompleteAdapter
+        // this function starts when thread Html and Mosmix finished; important to update AutoCompleteAdapter
 
         Map<String, WeatherStation> GCLavailableWeatherStations = new HashMap<>();
         Map<String, String> GCLWeatherStationsNameID = new HashMap<>();
@@ -606,6 +606,13 @@ public class MainActivity extends AppCompatActivity{
 
         for (Map.Entry<String, WeatherStation> stations : GCLmapweatherstations.entrySet()) {
             // extract stations that fit to WeatherStationsID from html site
+            // helper to generate the input data for weather station Hashmap
+
+            // System.out.format("%s \n"," § mosmix_mapweatherstations.put(\" § " + stations.getKey() + "\", new WeatherStation( §\"" + stations.getValue().ReadWeatherStationsName()+"\", § " + stations.getValue().ReadWeatherStationsLatitude() + ", § " + stations.getValue().ReadWeatherStationsLongitude() + ", § " + stations.getValue().ReadWeatherStationsClu() + ", § " + stations.getValue().ReadWeatherStationsCofx() + ", § \" " + stations.getValue().ReadWeatherStationsICAO() + "\", § " + stations.getValue().ReadWeatherStationsElev() + ", § " + stations.getValue().ReadWeatherStationsHmodH() + ", § \"" + stations.getValue().ReadWeatherStationsType() + "\"));" );
+            // System.out.format("%s \n"," § mosmix_mapweatherstations.put(\" " +  stations.getKey() + '\"' + "§  §,new WeatherStation(\" "+stations.getValue().ReadWeatherStationsName()+"\" §,§"+stations.getValue().ReadWeatherStationsLatitude() + "§,§" + stations.getValue().ReadWeatherStationsLongitude() + "§,§" + stations.getValue().ReadWeatherStationsClu() + "§,§" + stations.getValue().ReadWeatherStationsCofx() + "§,§ \"" + stations.getValue().ReadWeatherStationsICAO() + "\" §,§" + stations.getValue().ReadWeatherStationsElev() + "§,§" + stations.getValue().ReadWeatherStationsHmodH() + "§,§ \" " + stations.getValue().ReadWeatherStationsType() + " \" ));" );
+            // System.out.format("%s \n", "$\"" + stations.getKey() + "\";" + "\"" + stations.getValue().ReadWeatherStationsName()+"\";" + stations.getValue().ReadWeatherStationsLatitude() + ";" + stations.getValue().ReadWeatherStationsLongitude() + ";" + stations.getValue().ReadWeatherStationsClu() + ";" + stations.getValue().ReadWeatherStationsCofx() + ";\"" + stations.getValue().ReadWeatherStationsICAO() + "\";" + stations.getValue().ReadWeatherStationsElev() + ";" + stations.getValue().ReadWeatherStationsHmodH() + ";\"" + stations.getValue().ReadWeatherStationsType() + "\"");
+            // line below ok for generating stations cat.txt 4th_Oct_24
+            //System.out.format("%s \n", "$" + stations.getKey() + ";" + stations.getValue().ReadWeatherStationsName()+";" + stations.getValue().ReadWeatherStationsLatitude() + ";" + stations.getValue().ReadWeatherStationsLongitude() + ";" + stations.getValue().ReadWeatherStationsClu() + ";" + stations.getValue().ReadWeatherStationsCofx() + ";" + stations.getValue().ReadWeatherStationsICAO() + ";" + stations.getValue().ReadWeatherStationsElev() + ";" + stations.getValue().ReadWeatherStationsHmodH() + ";" + stations.getValue().ReadWeatherStationsType());
             for (nine_seventy = 0; nine_seventy < GCLStationsOnWeb.size(); nine_seventy++) {
                 if (stations.getKey().equals(GCLStationsOnWeb.get(nine_seventy))) {
                     //19SEPT22
