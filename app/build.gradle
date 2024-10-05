@@ -12,10 +12,10 @@ android {
     defaultConfig {
         applicationId "de.phasenrauscher.bicyweather"
         namespace "de.phasenrauscher.bicyweather"
-        minSdk 29
+        minSdk 28
         targetSdk 34
         versionCode 1
-        versionName '1.0.16'
+        versionName '1.0.17'
 
         //testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         //testApplicationId agp_version1
