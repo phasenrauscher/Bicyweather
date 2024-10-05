@@ -1,0 +1,1973 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="5" by="lint Koala | 2024.1.1">
+
+    <issue
+        id="InlinedApi"
+        message="Field requires API level 33 (current min is 29): `android.content.Context#RECEIVER_EXPORTED`">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/MainActivity.java"
+            line="323"/>
+    </issue>
+
+    <issue
+        id="OldTargetApi"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the `android.os.Build.VERSION_CODES` javadoc for details.">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="UsingOnClickInXml"
+        message="Use databinding or explicit wiring of click listener in code">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="19"/>
+    </issue>
+
+    <issue
+        id="UsingOnClickInXml"
+        message="Use databinding or explicit wiring of click listener in code">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="848"/>
+    </issue>
+
+    <issue
+        id="UsingOnClickInXml"
+        message="Use databinding or explicit wiring of click listener in code">
+        <location
+            file="src/main/res/layout/activity_map.xml"
+            line="21"/>
+    </issue>
+
+    <issue
+        id="UsingOnClickInXml"
+        message="Use databinding or explicit wiring of click listener in code">
+        <location
+            file="src/main/res/layout/activity_setting.xml"
+            line="27"/>
+    </issue>
+
+    <issue
+        id="Recycle"
+        message="This `Cursor` should be freed up after use with `#close()`">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/DBHelper.java"
+            line="93"/>
+    </issue>
+
+    <issue
+        id="Recycle"
+        message="This `Cursor` should be freed up after use with `#close()`">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/MainActivity.java"
+            line="506"/>
+    </issue>
+
+    <issue
+        id="Recycle"
+        message="This `Cursor` should be freed up after use with `#close()`">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/MainActivity.java"
+            line="684"/>
+    </issue>
+
+    <issue
+        id="Recycle"
+        message="This `Cursor` should be freed up after use with `#close()`">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/MainActivity.java"
+            line="1679"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="This folder configuration (`v24`) is unnecessary; `minSdkVersion` is 29. Merge all the resources in this folder into `drawable`.">
+        <location
+            file="src/main/res/drawable-v24"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="This folder configuration (`v26`) is unnecessary; `minSdkVersion` is 29. Merge all the resources in this folder into `mipmap-anydpi`.">
+        <location
+            file="src/main/res/mipmap-anydpi-v26"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21">
+        <location
+            file="src/main/res/values-night/themes.xml"
+            line="13"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21">
+        <location
+            file="src/main/res/values/themes.xml"
+            line="13"/>
+    </issue>
+
+    <issue
+        id="InefficientWeight"
+        message="Use a `layout_width` of `0dp` instead of `66dp` for better performance">
+        <location
+            file="src/main/res/layout/city_autocomplete_row.xml"
+            line="19"/>
+    </issue>
+
+    <issue
+        id="InefficientWeight"
+        message="Use a `layout_width` of `0dp` instead of `66dp` for better performance">
+        <location
+            file="src/main/res/layout/country_autocomplete_row.xml"
+            line="19"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.bkn` appears to be unused">
+        <location
+            file="src/main/res/drawable-200dpi/bkn.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.bkngreen` appears to be unused">
+        <location
+            file="src/main/res/drawable-200dpi/bkngreen.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.bkngreenblack` appears to be unused">
+        <location
+            file="src/main/res/drawable-200dpi/bkngreenblack.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.bkngreenold` appears to be unused">
+        <location
+            file="src/main/res/drawable-200dpi/bkngreenold.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.bknlight3` appears to be unused">
+        <location
+            file="src/main/res/drawable-200dpi/bknlight3.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.bknlight5` appears to be unused">
+        <location
+            file="src/main/res/drawable-200dpi/bknlight5.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.purple_200` appears to be unused">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="3"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.purple_500` appears to be unused">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="4"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.purple_700` appears to be unused">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="5"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.teal_200` appears to be unused">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="6"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.teal_700` appears to be unused">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="7"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.black` appears to be unused">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="8"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.white` appears to be unused">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="9"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.dust` appears to be unused">
+        <location
+            file="src/main/res/drawable-200dpi/dust.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.empty` appears to be unused">
+        <location
+            file="src/main/res/drawable-200dpi/empty.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.error` appears to be unused">
+        <location
+            file="src/main/res/drawable-200dpi/error.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.few` appears to be unused">
+        <location
+            file="src/main/res/drawable-200dpi/few.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.fg` appears to be unused">
+        <location
+            file="src/main/res/drawable-200dpi/fg.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.fzra` appears to be unused">
+        <location
+            file="src/main/res/drawable-200dpi/fzra.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.fzrara` appears to be unused">
+        <location
+            file="src/main/res/drawable-200dpi/fzrara.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.hi_shwrs` appears to be unused">
+        <location
+            file="src/main/res/drawable-200dpi/hi_shwrs.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.hi_tsra` appears to be unused">
+        <location
+            file="src/main/res/drawable-200dpi/hi_tsra.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.mipmap.ic_launcher` appears to be unused">
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.ic_launcher_background` appears to be unused">
+        <location
+            file="src/main/res/drawable-200dpi/ic_launcher_background.xml"
+            line="2"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.ic_launcher_foreground` appears to be unused">
+        <location
+            file="src/main/res/drawable-v24/ic_launcher_foreground.xml"
+            line="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.mipmap.ic_launcher_round` appears to be unused">
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_round.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.ip` appears to be unused">
+        <location
+            file="src/main/res/drawable-200dpi/ip.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.mist` appears to be unused">
+        <location
+            file="src/main/res/drawable-200dpi/mist.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.mix` appears to be unused">
+        <location
+            file="src/main/res/drawable-200dpi/mix.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.nsurtsra` appears to be unused">
+        <location
+            file="src/main/res/drawable-200dpi/nsurtsra.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.ovc` appears to be unused">
+        <location
+            file="src/main/res/drawable-200dpi/ovc.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.ra` appears to be unused">
+        <location
+            file="src/main/res/drawable-200dpi/ra.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.ra1` appears to be unused">
+        <location
+            file="src/main/res/drawable-200dpi/ra1.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.raip` appears to be unused">
+        <location
+            file="src/main/res/drawable-200dpi/raip.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.rasn` appears to be unused">
+        <location
+            file="src/main/res/drawable-200dpi/rasn.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.sct` appears to be unused">
+        <location
+            file="src/main/res/drawable-200dpi/sct.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.shra` appears to be unused">
+        <location
+            file="src/main/res/drawable-200dpi/shra.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.skc` appears to be unused">
+        <location
+            file="src/main/res/drawable-200dpi/skc.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.smoke` appears to be unused">
+        <location
+            file="src/main/res/drawable-200dpi/smoke.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.sn` appears to be unused">
+        <location
+            file="src/main/res/drawable-200dpi/sn.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.app_name` appears to be unused">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="2"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.Theme_Bicyweather` appears to be unused">
+        <location
+            file="src/main/res/values/themes.xml"
+            line="3"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.tsra` appears to be unused">
+        <location
+            file="src/main/res/drawable-200dpi/tsra.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.weather_icons_200` appears to be unused">
+        <location
+            file="src/main/res/drawable-200dpi/weather_icons_200.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.wind` appears to be unused">
+        <location
+            file="src/main/res/drawable-200dpi/wind.png"/>
+    </issue>
+
+    <issue
+        id="ConvertToWebp"
+        message="One or more images in this project can be converted to the WebP format which typically results in smaller file sizes, even for lossless conversion">
+        <location
+            file="src/main/res/drawable-200dpi/bkn11.png"/>
+    </issue>
+
+    <issue
+        id="IconLauncherShape"
+        message="Launcher icon used as round icon did not have a circular shape">
+        <location
+            file="src/main/res/drawable-200dpi/bkn11.png"/>
+    </issue>
+
+    <issue
+        id="IconExpectedSize"
+        message="Incorrect icon size for `drawable-200dpi/bkn11.png`: expected 60x60, but was 200x200">
+        <location
+            file="src/main/res/drawable-200dpi/bkn11.png"/>
+    </issue>
+
+    <issue
+        id="IconDuplicates"
+        message="The following unrelated icon files have identical contents: bkn.png, weather_icons_200.png">
+        <location
+            file="src/main/res/drawable-200dpi/weather_icons_200.png"/>
+        <location
+            file="src/main/res/drawable-200dpi/bkn.png"/>
+    </issue>
+
+    <issue
+        id="SelectableText"
+        message="Consider making the text value selectable by specifying `android:textIsSelectable=&quot;true&quot;`">
+        <location
+            file="src/main/res/layout/city_autocomplete_row.xml"
+            line="8"/>
+    </issue>
+
+    <issue
+        id="SelectableText"
+        message="Consider making the text value selectable by specifying `android:textIsSelectable=&quot;true&quot;`">
+        <location
+            file="src/main/res/layout/country_autocomplete_row.xml"
+            line="8"/>
+    </issue>
+
+    <issue
+        id="SmallSp"
+        message="Avoid using sizes smaller than `11sp`: `6sp`">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="21"/>
+    </issue>
+
+    <issue
+        id="SmallSp"
+        message="Avoid using sizes smaller than `11sp`: `10sp`">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="46"/>
+    </issue>
+
+    <issue
+        id="SmallSp"
+        message="Avoid using sizes smaller than `11sp`: `8sp`">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="91"/>
+    </issue>
+
+    <issue
+        id="SmallSp"
+        message="Avoid using sizes smaller than `11sp`: `8sp`">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="101"/>
+    </issue>
+
+    <issue
+        id="SmallSp"
+        message="Avoid using sizes smaller than `11sp`: `8sp`">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="133"/>
+    </issue>
+
+    <issue
+        id="SmallSp"
+        message="Avoid using sizes smaller than `11sp`: `8sp`">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="165"/>
+    </issue>
+
+    <issue
+        id="SmallSp"
+        message="Avoid using sizes smaller than `11sp`: `10sp`">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="188"/>
+    </issue>
+
+    <issue
+        id="SmallSp"
+        message="Avoid using sizes smaller than `11sp`: `8sp`">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="211"/>
+    </issue>
+
+    <issue
+        id="SmallSp"
+        message="Avoid using sizes smaller than `11sp`: `10sp`">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="367"/>
+    </issue>
+
+    <issue
+        id="SmallSp"
+        message="Avoid using sizes smaller than `11sp`: `8sp`">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="379"/>
+    </issue>
+
+    <issue
+        id="SmallSp"
+        message="Avoid using sizes smaller than `11sp`: `10sp`">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="473"/>
+    </issue>
+
+    <issue
+        id="SmallSp"
+        message="Avoid using sizes smaller than `11sp`: `10sp`">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="509"/>
+    </issue>
+
+    <issue
+        id="SmallSp"
+        message="Avoid using sizes smaller than `11sp`: `8sp`">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="521"/>
+    </issue>
+
+    <issue
+        id="SmallSp"
+        message="Avoid using sizes smaller than `11sp`: `8sp`">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="542"/>
+    </issue>
+
+    <issue
+        id="SmallSp"
+        message="Avoid using sizes smaller than `11sp`: `8sp`">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="588"/>
+    </issue>
+
+    <issue
+        id="SmallSp"
+        message="Avoid using sizes smaller than `11sp`: `8sp`">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="598"/>
+    </issue>
+
+    <issue
+        id="SmallSp"
+        message="Avoid using sizes smaller than `11sp`: `10sp`">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="646"/>
+    </issue>
+
+    <issue
+        id="SmallSp"
+        message="Avoid using sizes smaller than `11sp`: `8sp`">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="658"/>
+    </issue>
+
+    <issue
+        id="SmallSp"
+        message="Avoid using sizes smaller than `11sp`: `8sp`">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="668"/>
+    </issue>
+
+    <issue
+        id="SmallSp"
+        message="Avoid using sizes smaller than `11sp`: `8sp`">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="689"/>
+    </issue>
+
+    <issue
+        id="SmallSp"
+        message="Avoid using sizes smaller than `11sp`: `10sp`">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="768"/>
+    </issue>
+
+    <issue
+        id="SmallSp"
+        message="Avoid using sizes smaller than `11sp`: `8sp`">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="780"/>
+    </issue>
+
+    <issue
+        id="SmallSp"
+        message="Avoid using sizes smaller than `11sp`: `6sp`">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="850"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="106"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="117"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="138"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="149"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="195"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="216"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="255"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="293"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="304"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="315"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="326"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="337"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="397"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="422"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="446"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="457"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="480"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="526"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="547"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="558"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="603"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="673"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="694"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="705"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="716"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="741"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="752"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="785"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="796"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="829"/>
+    </issue>
+
+    <issue
+        id="LabelFor"
+        message="Missing accessibility label: provide either a view with an `android:labelFor` that references this view or provide an `android:hint`">
+        <location
+            file="src/main/res/layout/activity_setting.xml"
+            line="10"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/MainActivity.java"
+            line="1035"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/MainActivity.java"
+            line="1083"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/MainActivity.java"
+            line="1132"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/MainActivity.java"
+            line="1136"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/MainActivity.java"
+            line="1165"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/MainActivity.java"
+            line="1169"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/MainActivity.java"
+            line="1198"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/MainActivity.java"
+            line="1202"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/MainActivity.java"
+            line="1231"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/MainActivity.java"
+            line="1235"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/MainActivity.java"
+            line="1264"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/MainActivity.java"
+            line="1268"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/MainActivity.java"
+            line="1297"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/MainActivity.java"
+            line="1301"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/MainActivity.java"
+            line="1330"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/MainActivity.java"
+            line="1334"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;set&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="20"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;textview&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="33"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;day3&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="45"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;fctdate&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="71"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Max.&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="90"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Min.&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="100"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Min.&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="132"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Max.&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="164"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;--&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="174"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;day2&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="187"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Min.&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="210"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;--&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="231"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;--&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="246"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;--&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="271"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;--&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="284"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;--&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="353"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;today&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="366"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Max.&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="378"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;--&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="388"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;--&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="413"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;--&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="437"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;day6&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="472"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;--&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="495"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;day7&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="508"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Min.&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="520"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Max.&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="541"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;--&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="574"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Min.&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="587"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Min.&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="597"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;--&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="619"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;--&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="632"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;day5&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="645"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Max.&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="657"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Max.&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="667"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Max.&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="688"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;--&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="732"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;day4&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="767"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Min.&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="779"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;heute:&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="812"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;-- °C&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="822"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;map&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="849"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;back&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/activity_map.xml"
+            line="22"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;ID&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/city_autocomplete_row.xml"
+            line="22"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;ID&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/country_autocomplete_row.xml"
+            line="22"/>
+    </issue>
+
+    <issue
+        id="RtlSymmetry"
+        message="When you define `paddingStart` you should probably also define `paddingEnd` for right-to-left symmetry">
+        <location
+            file="src/main/res/layout/city_autocomplete_row.xml"
+            line="13"/>
+    </issue>
+
+    <issue
+        id="RtlSymmetry"
+        message="When you define `paddingStart` you should probably also define `paddingEnd` for right-to-left symmetry">
+        <location
+            file="src/main/res/layout/country_autocomplete_row.xml"
+            line="13"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/CityItem.java"
+            line="30"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/CityItem.java"
+            line="30"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/CityItem.java"
+            line="35"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/CityItem.java"
+            line="39"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/CityItem.java"
+            line="52"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/CityItem.java"
+            line="58"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/CountryItem.java"
+            line="27"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/CountryItem.java"
+            line="27"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/CountryItem.java"
+            line="32"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/CountryItem.java"
+            line="36"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/DBHelper.java"
+            line="36"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/DBHelper.java"
+            line="50"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/DBHelper.java"
+            line="50"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/DBHelper.java"
+            line="50"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/DBHelper.java"
+            line="50"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/DBHelper.java"
+            line="67"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/DBHelper.java"
+            line="67"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/DBHelper.java"
+            line="67"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/DBHelper.java"
+            line="67"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/DBHelper.java"
+            line="90"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/DBHelper.java"
+            line="90"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/DBHelper.java"
+            line="107"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/DwdHtml.java"
+            line="53"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/Location.java"
+            line="33"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/MainActivity.java"
+            line="114"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/MainActivity.java"
+            line="346"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/MainActivity.java"
+            line="546"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/MainActivity.java"
+            line="591"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/MainActivity.java"
+            line="591"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/MainActivity.java"
+            line="591"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/MainActivity.java"
+            line="665"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/MainActivity.java"
+            line="665"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/MainActivity.java"
+            line="665"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/MainActivity.java"
+            line="731"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/MainActivity.java"
+            line="731"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/MainActivity.java"
+            line="731"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/MainActivity.java"
+            line="1375"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/MainActivity.java"
+            line="1375"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/MainActivity.java"
+            line="1427"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/MainActivity.java"
+            line="1427"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/MainActivity.java"
+            line="1445"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/MainActivity.java"
+            line="1445"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/MainActivity.java"
+            line="1507"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/MainActivity.java"
+            line="1507"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/MainActivity.java"
+            line="2139"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/MainActivity.java"
+            line="2153"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/Map.java"
+            line="37"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/Map.java"
+            line="55"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/Mosmix.java"
+            line="51"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/Parse_forecast_weather.java"
+            line="55"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/Parse_forecast_weather.java"
+            line="55"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/Parse_forecast_weather.java"
+            line="55"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/Parse_forecast_weather.java"
+            line="64"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/Parse_forecast_weather.java"
+            line="64"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/Parse_forecast_weather.java"
+            line="158"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/Parse_forecast_weather.java"
+            line="158"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/Setting.java"
+            line="61"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/Setting.java"
+            line="263"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/WeatherStation.java"
+            line="49"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/WeatherStation.java"
+            line="49"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/WeatherStation.java"
+            line="49"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/WeatherStation.java"
+            line="93"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/WeatherStation.java"
+            line="103"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/WeatherStation.java"
+            line="113"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/wwTTTForecast.java"
+            line="29"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/wwTTTForecast.java"
+            line="29"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/wwTTTForecast.java"
+            line="36"/>
+    </issue>
+
+    <issue
+        id="UnknownNullness"
+        message="Unknown nullability; explicitly declare as `@Nullable` or `@NonNull` to improve Kotlin interoperability; see https://developer.android.com/kotlin/interop#nullability_annotations">
+        <location
+            file="src/main/java/de/phasenrauscher/bicyweather/wwTTTForecast.java"
+            line="41"/>
+    </issue>
+
+</issues>
