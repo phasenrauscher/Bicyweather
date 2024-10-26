@@ -81,6 +81,9 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.time.DayOfWeek;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.ZoneId;
+import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 import java.time.format.TextStyle;
 import java.util.ArrayList;
@@ -1004,14 +1007,19 @@ public class MainActivity extends AppCompatActivity{
     /************************************************************************************************************************/
 
     private void updateGUI(String location_Name, String[] Icons, String[] minmaxtemps, String awIcon, String awTemp){
-    // update location text field again
 
-    LocalDate DateNow = LocalDate.now();
+      // update location text field again
+
+
+      //LocalDate DateNow = LocalDate.now();
+      ZoneId gzone = ZoneId.of("Europe/Berlin");
+      LocalDateTime DateNow = LocalDateTime.now(gzone);
+
 
         try
 
     {
-// TODO
+
         TextView db111 = (TextView) findViewById(R.id.mainLOCATION);
         //db111.setText(WeatherStationsNameArray.get(locname));
         db111.setText(location_Name);
@@ -1034,7 +1042,8 @@ public class MainActivity extends AppCompatActivity{
         // DayOfWeek dayOfWeek = now.getDayOfWeek();
         // System.out.println( dayOfWeek.plus( 100 ) ); // z.B. SATURDAY
 
-        DayOfWeek dow = LocalDate.now().getDayOfWeek().plus(0);
+        //DayOfWeek dow = LocalDate.now().getDayOfWeek().plus(0);
+        DayOfWeek dow = DateNow.getDayOfWeek().plus(0);
 
         //GUI: user to choose language
         //System.out.println( dow.getDisplayName( TextStyle.FULL, Locale.GERMANY ) );

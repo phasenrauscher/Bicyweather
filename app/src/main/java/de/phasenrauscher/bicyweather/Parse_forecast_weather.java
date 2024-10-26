@@ -23,12 +23,16 @@ package de.phasenrauscher.bicyweather;
 
 //import android.widget.Toast;
 
+import java.time.Clock;
 import java.time.LocalDateTime;
+import java.time.ZoneId;
+import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
+import java.util.TimeZone;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
@@ -62,8 +66,9 @@ public class Parse_forecast_weather {
 
     
 public static String[] ParseKMLIcon(Map<String, wwTTTForecast> TTTFc) {
+    ZoneId gzone = ZoneId.of("Europe/Berlin");
+    LocalDateTime today9 = LocalDateTime.now(gzone).withHour(9).withMinute(0).withSecond(0).withNano(0); // 22 Aug. 22 declaration moved to here
 
-    LocalDateTime today9 = LocalDateTime.now().withHour(9).withMinute(0).withSecond(0).withNano(0); // 22 Aug. 22 declaration moved to here
     // parse weather forecast XML file
     String[] ArrayIcon = new String[101];
 
@@ -157,9 +162,15 @@ public static String[] ParseKMLIcon(Map<String, wwTTTForecast> TTTFc) {
 
     public static List<Double> ParseKMLTemperature(Map<String, wwTTTForecast> TTTFc) {
 
-        LocalDateTime nowtime = LocalDateTime.now(); // 22 Aug. 22 declaration moved to here
-        // parse min / max temperatures of one day with help of filterByKey method, icons will be extracted directly by their time
+        ZoneId zone = ZoneId.of("Europe/Berlin");
 
+        // changed from LocalDateTime to ZonedDateTime: the correct german local time is required to sync with opendata.dwd.de
+        LocalDateTime nowtime = LocalDateTime.now(zone);
+        System.out.format("hours: %s , minutes: %s \n", nowtime.getHour(),nowtime.getMinute() );
+
+
+
+        // parse min / max temperatures of one day with help of filterByKey method, icons will be extracted directly by their time
         List<Double> minmaxtemp;
 
         /* forecast TEMPERATURES */

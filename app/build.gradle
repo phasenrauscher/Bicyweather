@@ -14,8 +14,9 @@ android {
         namespace "de.phasenrauscher.bicyweather"
         minSdk 28
         targetSdk 34
-        versionCode 1
-        versionName '1.0.19'
+        versionCode 2
+        versionName '1.0.20'
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
 
         //testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         //testApplicationId agp_version1
@@ -51,11 +52,12 @@ dependencies {
     implementation 'com.google.android.material:material:1.12.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     testImplementation 'junit:junit:4.13.2'
-    androidTestImplementation 'androidx.test.ext:junit:1.2.1'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
+    androidTestImplementation 'androidx.test.ext:junit:1.2.0-alpha01'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.0-alpha01'
     // https://mvnrepository.com/artifact/com.github.mhiew/android-pdf-viewer
     // implementation 'com.github.mhiew:android-pdf-viewer:3.2.0-beta.3'
     // implementation 'com.github.barteksc:android-pdf-viewer:3.2.0-beta.1'
     implementation 'com.github.MikeOrtiz:TouchImageView:3.6'
+    androidTestImplementation 'androidx.test:rules:1.6.0-alpha01'
 
 }
