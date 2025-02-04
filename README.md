@@ -1,11 +1,10 @@
-
 ![Bicyweather Banner v1.0](app/src/main/res/drawable-200dpi/bkngreen.png)
 
 A free / open source weather forecast app based on data of german [DWD](https://opendata.dwd.de).
 
-[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" height="75" />]()
-
-
+[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
+     alt="Get it on F-Droid"
+     height="80">](https://f-droid.org/packages/de.phasenrauscher.bicyweather/)
 
 ## About
 
